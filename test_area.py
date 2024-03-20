@@ -1,5 +1,5 @@
 import pytest  
-from src.area import calculate_area_square  
+from area import calculate_area_square  
   
 def test_calculate_area_square_negative():  
     with pytest.raises(TypeError):  
