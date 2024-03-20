@@ -20,4 +20,10 @@ jobs:
       with:
         python-version: '3.x'
 
-    # Add your other steps here
+    - name: Install dependencies
+      run: |
+        pip install pytest
+        pip install .
+
+    - name: Run tests
+      run: pytest
