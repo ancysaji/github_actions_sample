@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  your-job-name:
+  workflow:
     runs-on: ubuntu-latest
 
     steps:
